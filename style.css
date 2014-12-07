@@ -1,0 +1,68 @@
+html {
+    font-size: small;
+    background: white;
+    width: 100%;
+    background-image: url(Images/deer_fly-PATTERN.jpg);
+    background-size: cover;
+}
+
+body {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header.principal {
+    text-align: center;
+    background-color: #f04766;
+    color: white;
+    padding: 1.5em;
+}
+
+header.principal h1 {
+    font-size: 6em;
+    font-family: 'Pacifico';
+}
+
+header.principal h3 {
+    font-size: 2em;
+    font-family: 'Slabo 27px';
+}
+
+nav {
+    background: #FFF;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 1em 4em;
+}
+
+section.main {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.75);
+    background-size: cover;
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Amatic SC';
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    
+    text-align: center;
+    background-color: #51a8b1;
+    padding: 0.5em 0;
+    margin: 0;
+}
+
+footer p {
+    color: white;
+    line-height: 1.em;
+    font-family: 'Slabo 27px', serif;
+}
