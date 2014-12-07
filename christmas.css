@@ -1,0 +1,11 @@
+section.main {
+  display: flex;
+  flex-direction: column;
+} 
+
+section.main header {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
