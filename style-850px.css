@@ -1,0 +1,14 @@
+@media screen and (max-width: 850px) {
+    nav ul li {
+       display: block;
+       padding: 1em; 
+}
+    
+    nav ul a {
+       font-family: 'Slabo 27px';
+       color: #000;
+       font-size: medium;
+       text-decoration: none;
+}
+    
+}
