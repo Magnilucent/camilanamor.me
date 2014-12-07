@@ -37,7 +37,29 @@ nav {
 
 nav ul li {
     display: inline;
-    padding: 1em 4em;
+}
+
+nav ul a {
+    font-family: 'Slabo 27px';
+    padding: 0.7em 4em;
+    margin: 0 1em;
+    color: #000;
+    font-size: medium;
+    text-decoration: none;
+}
+
+nav ul a:link, nav ul a:visited {
+    color: #000;
+}
+
+nav ul a:hover {
+    background-color: #f04766;
+    color: white;
+}
+
+#current {
+    color: #f04766;
+    background-color: #fff;
 }
 
 section.main {
@@ -47,10 +69,11 @@ section.main {
     text-align: center;
     font-size: 10em;
     font-family: 'Amatic SC';
+    margin: 0;
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     left: 0;
     width: 100%;
